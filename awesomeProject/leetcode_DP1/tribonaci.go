@@ -5,7 +5,7 @@ import "fmt"
 //https://leetcode.com/problems/n-th-tribonacci-number/
 
 func main() {
-	fmt.Println(tribonacci(0))
+	fmt.Println(tribonacci(4))
 }
 
 func tribonacci(n int) int {
