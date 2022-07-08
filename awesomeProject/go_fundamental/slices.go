@@ -8,4 +8,11 @@ func main() {
 
 	x = append(x, 12)
 	fmt.Println(x)
+
+	fmt.Println(x[1:3])
+
+	y := []int{222, 33, 444, 555, 333}
+
+	x = append(x, y...)
+	fmt.Println(x)
 }
