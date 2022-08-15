@@ -2,6 +2,8 @@ package main
 
 import "fmt"
 
+//https://leetcode.com/problems/house-robber
+
 func main() {
 	nums := []int{2, 7, 9, 3, 1}
 	fmt.Println(rob(nums))
