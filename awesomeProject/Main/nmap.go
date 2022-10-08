@@ -1,4 +1,4 @@
-package tcp_scanning
+package main
 
 import (
 	"fmt"
